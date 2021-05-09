@@ -1,0 +1,37 @@
+{
+  "name": "polkapanda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "hardhat test",
+    "deploy": "hardhat run ./scripts/deploy.ts --network rinkeby",
+    "prettier": "prettier --write 'contracts/**/*.sol'",
+    "compile": "hardhat compile",
+    "coverage": "hardhat coverage",
+    "flatten": "hardhat flatten ./contracts/ExchangeV2.sol > ./flatten/ExchangeV2.sol",
+    "verify": "hardhat verify 0x --network rinkeby"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.2",
+    "@openzeppelin/contracts-upgradeable": "3.4.0",
+    "dotenv": "^9.0.1",
+    "hardhat": "^2.2.1",
+    "hardhat-gas-reporter": "^1.0.4",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.10",
+    "solidity-coverage": "^0.7.16"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.0.2",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.1.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}

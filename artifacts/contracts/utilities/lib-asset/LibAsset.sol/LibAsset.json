@@ -1,0 +1,63 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "LibAsset",
+  "sourceName": "contracts/utilities/lib-asset/LibAsset.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "ERC1155_ASSET_CLASS",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "ERC20_ASSET_CLASS",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "ERC721_ASSET_CLASS",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "ETH_ASSET_CLASS",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x61015e610026600b82828239805160001a60731461001957fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600436106100565760003560e01c8063405bf2751461005b5780636cd2c30a14610080578063b4797da214610088578063c214be5914610090575b600080fd5b610063610098565b604080516001600160e01b03199092168252519081900360200190f35b6100636100bc565b6100636100e0565b610063610104565b7f973bb64086f173ec8099b7ed3d43da984f4a332e4417a08bc6a286e6402b058681565b7f8ae85d849167ff996c04040c44924fd364217285e4cad818292c7ac37c0a345b81565b7faaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff481565b7f73ad2146b3d3a286642c794379d750360a2d53a3459a11b3e5d6cc900f55f44a8156fea264697066735822122049d7c48cf7e6dc6ab07b1838026b7b46ea3303406c412ef36bf61f74729678c564736f6c63430007060033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600436106100565760003560e01c8063405bf2751461005b5780636cd2c30a14610080578063b4797da214610088578063c214be5914610090575b600080fd5b610063610098565b604080516001600160e01b03199092168252519081900360200190f35b6100636100bc565b6100636100e0565b610063610104565b7f973bb64086f173ec8099b7ed3d43da984f4a332e4417a08bc6a286e6402b058681565b7f8ae85d849167ff996c04040c44924fd364217285e4cad818292c7ac37c0a345b81565b7faaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff481565b7f73ad2146b3d3a286642c794379d750360a2d53a3459a11b3e5d6cc900f55f44a8156fea264697066735822122049d7c48cf7e6dc6ab07b1838026b7b46ea3303406c412ef36bf61f74729678c564736f6c63430007060033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
